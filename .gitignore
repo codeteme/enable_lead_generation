@@ -1,0 +1,4 @@
+.vscode
+data/html
+venv
+.DS_Store
