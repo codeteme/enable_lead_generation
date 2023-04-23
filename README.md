@@ -1,18 +1,17 @@
-# enable_lead_generation
+# Qatar Restaurant List for B2B Lead Generation
 Compile a list of restaurants in Qatar for B2B lead generation
 
 <strong> Objective </strong>
-In this task, we will build a one-time automation tool that helps compile a comprehensive list of restaurants in Qatar that offers delivery and are potential clients to be approached by Enable. The ultimate goal is to produce a list of restaurants that are filtered by the number of branches, and fine dining category. The list shall be handed over to the business team, which should apply its own methods to identify businesses to approach.  
-
+The purpose of this project is to create a tool that compiles a comprehensive list of restaurants in Qatar that offer delivery, for B2B lead generation.
 
 <strong> Data Sources </strong>
+The following data sources have been used to compile the list:
 
-Talabat: List of nearly all companies in Qatar that offer delivery service 
-Google Maps: The Google Maps API will help us count the number of branches of each restaurant.  
-MyBookQatar: The mobile app indicates the number of branches each brand has.  
-Snoonu: It contains a category called fine dining which we can use to filter the “big” list.  
-Open Table: We can use the estimated price range to filter fine dining.  
-
+Talabat: provides a list of companies in Qatar that offer delivery services. However, it includes non-food vendors such as flower shops and pharmacies, so these will be excluded from the final list.
+Google Maps: The Google Maps API is used to count the number of branches of each restaurant.
+MyBookQatar: This mobile app indicates the number of branches each brand has.
+Snoonu: This source contains a category called fine dining, which will be used to filter the “big” list.
+Open Table: This source is used to estimate the price range to filter for fine dining restaurants.
 
 <strong> Example </strong>
 
